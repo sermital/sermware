@@ -1,4 +1,4 @@
--- sermware UI Library
+-- Hexagon UI Library
 local TweenService, RunService, UserInputService,gui,dragging,dragInput,dragStart,startPos,cpt,cpf,cppicking,cppickingVal,cppickingAlpha,cphue,cpsat,cpval,focused,highest,focusedBox = game:GetService("TweenService"),game:GetService("RunService"), game:GetService("UserInputService")
 local cpalpha = 0
 
@@ -155,10 +155,10 @@ local library = {
 	windows = {},
     pointers = {},
     settings = {
-        guiname = "sermware",
-		title = "sermare",
-		logo = "rbxassetid://6647950671", -- "https://www.roblox.com/library/6647950678/iran-pin",
-        footer = " sermware lol",
+        guiname = "Hexagon",
+		title = "Hexagon [Exodus Edition]",
+		logo = "rbxassetid://4350178803", -- "http://www.roblox.com/asset/?id=6597976562",
+        footer = " Exodus Winning $$$",
         modal = true,
         font = Enum.Font.SourceSans,
         textsize = 16,
