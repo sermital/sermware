@@ -155,10 +155,10 @@ local library = {
 	windows = {},
     pointers = {},
     settings = {
-        guiname = "Hexagon",
-		title = "Hexagon [Exodus Edition]",
+        guiname = "sermware",
+		title = "sermware",
 		logo = "rbxassetid://4350178803", -- "http://www.roblox.com/asset/?id=6597976562",
-        footer = " Exodus Winning $$$",
+        footer = " sermware lol",
         modal = true,
         font = Enum.Font.SourceSans,
         textsize = 16,
@@ -168,11 +168,11 @@ local library = {
         buttons = Color3.fromRGB(20, 200, 20), -- toggle, sliders colors
         text = Color3.fromRGB(235, 235, 235),
         textboxtext = Color3.fromRGB(145, 145, 145),
-        main = Color3.fromRGB(30, 30, 30),
+        main = Color3.fromRGB(86, 0, 148),
         outline = Color3.fromRGB(60, 60, 60),
-        tabholder = Color3.fromRGB(35, 35, 35),
-        tabbutton = Color3.fromRGB(30, 30, 30),
-        tabselected = Color3.fromRGB(50, 50, 50)
+        tabholder = Color3.fromRGB(30, 6, 41),
+        tabbutton = Color3.fromRGB(25, 1, 36),
+        tabselected = Color3.fromRGB(160, 44, 168)
     }
 }
 
