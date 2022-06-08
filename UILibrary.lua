@@ -158,7 +158,7 @@ local library = {
         guiname = "sermware",
 		title = "sermware",
 		logo = "rbxassetid://4350178803", -- "http://www.roblox.com/asset/?id=6597976562",
-        footer = " sermware lol",
+        footer = " sermware",
         modal = true,
         font = Enum.Font.SourceSans,
         textsize = 16,
@@ -173,7 +173,6 @@ local library = {
         tabholder = Color3.fromRGB(56, 1, 115),
         tabbutton = Color3.fromRGB(25, 1, 36),
         tabselected = Color3.fromRGB(100, 8, 199)
-		
     }
 }
 
@@ -205,7 +204,7 @@ function library:Notify(title, message, time, buttons, _function)
 		ZIndex = 100,
 		Size = UDim2.new(0,220,0,80),
 		Position = UDim2.new(0,-300,1,-90),
-		BackgroundColor3 = Color3.fromRGB(25, 230, 151),
+		BackgroundColor3 = Color3.fromRGB(30,30,30),
 		Text = "",
 		Name = "Notification",
 		Parent = library.base
@@ -243,10 +242,10 @@ function library:Notify(title, message, time, buttons, _function)
 			ZIndex = 100,
 			Size = UDim2.new(1/#buttons, 0, 0, 16),
 			Position = UDim2.new((i-1)/#buttons, 0,0.8,0),
-			BackgroundColor3 = Color3.fromRGB(25, 230, 151),
+			BackgroundColor3 = Color3.fromRGB(60,60,60),
 			Text = v,
 			TextSize = 14,
-			TextColor3 = Color3.fromRGB(255, 255, 255),
+			TextColor3 = Color3.fromRGB(235, 235, 235),
 			Font = "Code",
 			TextStrokeColor3 = Color3.new(0,0,0),
 			TextStrokeTransparency = 0,
@@ -417,7 +416,7 @@ function library:CreateWindow(csize, cpos)
 		Size = UDim2.new(1,0,0,18),
 		BackgroundTransparency = 1,
 		Image = "rbxassetid://2916745254",
-		ImageColor3 = Color3.fromRGB(100, 8, 199),
+		ImageColor3 = Color3.fromRGB(25, 25, 25),
 		ImageTransparency = 0.2,
 		Parent = window.main
 	})
@@ -701,7 +700,7 @@ function library:CreateWindow(csize, cpos)
 			
 			LocalTab.content = library:create("Frame", {
 				Size = UDim2.new(1,0,1,0),
-				BackgroundColor3 = Color3.fromRGB(100, 8, 199),
+				BackgroundColor3 = Color3.fromRGB(40, 40, 40),
 				BackgroundTransparency = 0,
 				Parent = LocalTab.main
 			})
@@ -762,7 +761,7 @@ function library:CreateWindow(csize, cpos)
 				button.button = library:create("TextButton", {
 					LayoutOrder = self.order,
 					Size = UDim2.new(1,0,0,library.settings.textsize + 2),
-					BackgroundColor3 = Color3.fromRGB(79, 6, 158),
+					BackgroundColor3 = Color3.fromRGB(60, 60, 60),
 					BackgroundTransparency = 0,
 					Text = tostring(text),
 					TextColor3 = library.theme.text,
