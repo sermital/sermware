@@ -245,7 +245,7 @@ function library:Notify(title, message, time, buttons, _function)
 			BackgroundColor3 = Color3.fromRGB(60,60,60),
 			Text = v,
 			TextSize = 14,
-			TextColor3 = Color3.fromRGB(235, 235, 235),
+			TextColor3 = Color3.fromRGB(100, 8, 199),
 			Font = "Code",
 			TextStrokeColor3 = Color3.new(0,0,0),
 			TextStrokeTransparency = 0,
