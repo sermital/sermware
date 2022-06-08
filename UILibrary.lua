@@ -172,7 +172,8 @@ local library = {
         outline = Color3.fromRGB(60, 60, 60),
         tabholder = Color3.fromRGB(56, 1, 115),
         tabbutton = Color3.fromRGB(25, 1, 36),
-        tabselected = Color3.fromRGB(100, 8, 199)
+        tabselected = Color3.fromRGB(86, 0, 148)
+		
     }
 }
 
@@ -700,7 +701,7 @@ function library:CreateWindow(csize, cpos)
 			
 			LocalTab.content = library:create("Frame", {
 				Size = UDim2.new(1,0,1,0),
-				BackgroundColor3 = Color3.fromRGB(86, 0, 148),
+				BackgroundColor3 = Color3.fromRGB(100, 8, 199),
 				BackgroundTransparency = 0,
 				Parent = LocalTab.main
 			})
