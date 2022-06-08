@@ -204,7 +204,7 @@ function library:Notify(title, message, time, buttons, _function)
 		ZIndex = 100,
 		Size = UDim2.new(0,220,0,80),
 		Position = UDim2.new(0,-300,1,-90),
-		BackgroundColor3 = Color3.fromRGB(100, 8, 199),
+		BackgroundColor3 = Color3.fromRGB(25, 230, 151),
 		Text = "",
 		Name = "Notification",
 		Parent = library.base
@@ -242,10 +242,10 @@ function library:Notify(title, message, time, buttons, _function)
 			ZIndex = 100,
 			Size = UDim2.new(1/#buttons, 0, 0, 16),
 			Position = UDim2.new((i-1)/#buttons, 0,0.8,0),
-			BackgroundColor3 = Color3.fromRGB(88, 9, 173),
+			BackgroundColor3 = Color3.fromRGB(25, 230, 151),
 			Text = v,
 			TextSize = 14,
-			TextColor3 = Color3.fromRGB(100, 8, 199),
+			TextColor3 = Color3.fromRGB(255, 255, 255),
 			Font = "Code",
 			TextStrokeColor3 = Color3.new(0,0,0),
 			TextStrokeTransparency = 0,
@@ -416,7 +416,7 @@ function library:CreateWindow(csize, cpos)
 		Size = UDim2.new(1,0,0,18),
 		BackgroundTransparency = 1,
 		Image = "rbxassetid://2916745254",
-		ImageColor3 = Color3.fromRGB(100, 8, 199),
+		ImageColor3 = Color3.fromRGB(25, 230, 151),
 		ImageTransparency = 0.2,
 		Parent = window.main
 	})
@@ -761,7 +761,7 @@ function library:CreateWindow(csize, cpos)
 				button.button = library:create("TextButton", {
 					LayoutOrder = self.order,
 					Size = UDim2.new(1,0,0,library.settings.textsize + 2),
-					BackgroundColor3 = Color3.fromRGB(88, 9, 173),
+					BackgroundColor3 = Color3.fromRGB(100, 8, 199),
 					BackgroundTransparency = 0,
 					Text = tostring(text),
 					TextColor3 = library.theme.text,
