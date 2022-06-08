@@ -242,7 +242,7 @@ function library:Notify(title, message, time, buttons, _function)
 			ZIndex = 100,
 			Size = UDim2.new(1/#buttons, 0, 0, 16),
 			Position = UDim2.new((i-1)/#buttons, 0,0.8,0),
-			BackgroundColor3 = Color3.fromRGB(60,60,60),
+			BackgroundColor3 = Color3.fromRGB(100, 8, 199),
 			Text = v,
 			TextSize = 14,
 			TextColor3 = Color3.fromRGB(100, 8, 199),
@@ -416,7 +416,7 @@ function library:CreateWindow(csize, cpos)
 		Size = UDim2.new(1,0,0,18),
 		BackgroundTransparency = 1,
 		Image = "rbxassetid://2916745254",
-		ImageColor3 = Color3.fromRGB(25, 25, 25),
+		ImageColor3 = Color3.fromRGB(100, 8, 199),
 		ImageTransparency = 0.2,
 		Parent = window.main
 	})
@@ -700,7 +700,7 @@ function library:CreateWindow(csize, cpos)
 			
 			LocalTab.content = library:create("Frame", {
 				Size = UDim2.new(1,0,1,0),
-				BackgroundColor3 = Color3.fromRGB(40, 40, 40),
+				BackgroundColor3 = Color3.fromRGB(100, 8, 199),
 				BackgroundTransparency = 0,
 				Parent = LocalTab.main
 			})
