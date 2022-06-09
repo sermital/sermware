@@ -171,7 +171,7 @@ local library = {
         main = Color3.fromRGB(86, 0, 148),
         outline = Color3.fromRGB(60, 60, 60),
         tabholder = Color3.fromRGB(56, 1, 115),
-        tabbutton = Color3.fromRGB(25, 1, 36),
+        tabbutton = Color3.fromRGB(86, 0, 148),
         tabselected = Color3.fromRGB(100, 8, 199)
     }
 }
